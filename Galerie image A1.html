@@ -198,22 +198,22 @@ img {
       <img class="demo cursor" src="https://images2.imgbox.com/57/bc/Nbx2FgEM_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://images2.imgbox.com/f1/e8/WNV4HgFu_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
+      <img class="demo cursor" src="https://images2.imgbox.com/f1/e8/WNV4HgFu_o.jpg" style="width:100%" onclick="currentSlide(7)" alt="Nichita Morozov">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://images2.imgbox.com/9c/e3/o07OYB0s_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
+      <img class="demo cursor" src="https://images2.imgbox.com/9c/e3/o07OYB0s_o.jpg" style="width:100%" onclick="currentSlide(8)" alt="Nichita Morozov">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://images2.imgbox.com/81/ec/M80lvCAo_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
+      <img class="demo cursor" src="https://images2.imgbox.com/81/ec/M80lvCAo_o.jpg" style="width:100%" onclick="currentSlide(9)" alt="Nichita Morozov">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://images2.imgbox.com/1c/36/qoj4iFtk_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
+      <img class="demo cursor" src="https://images2.imgbox.com/1c/36/qoj4iFtk_o.jpg" style="width:100%" onclick="currentSlide(10)" alt="Nichita Morozov">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://images2.imgbox.com/ad/67/33TRLTA5_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
+      <img class="demo cursor" src="https://images2.imgbox.com/ad/67/33TRLTA5_o.jpg" style="width:100%" onclick="currentSlide(11)" alt="Nichita Morozov">
     </div>
     <div class="column">
-      <img class="demo cursor" src="https://images2.imgbox.com/e0/4d/PpR0TMGS_o.jpg" style="width:100%" onclick="currentSlide(6)" alt="Nichita Morozov">
+      <img class="demo cursor" src="https://images2.imgbox.com/e0/4d/PpR0TMGS_o.jpg" style="width:100%" onclick="currentSlide(12)" alt="Nichita Morozov">
     </div>
   </div>
 </div>
@@ -233,6 +233,7 @@ function currentSlide(n) {
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
+  console.log(slides);
   var dots = document.getElementsByClassName("demo");
   var captionText = document.getElementById("caption");
   if (n > slides.length) {slideIndex = 1}
